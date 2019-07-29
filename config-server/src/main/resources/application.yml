@@ -4,10 +4,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/MichalAdorno/spring-config-data
-          searchPaths: ConfigData
-        # "native" is used when the native profile is active, for local tests with a classpath repo:
+          uri: https://github.com/MichalAdorno/spring-cloud-learning
+          searchPaths: configuration
         native:
           searchLocations: classpath:offline-config/
 server:
-  port: 8001
+  port: 7001

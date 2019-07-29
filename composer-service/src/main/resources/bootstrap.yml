@@ -1,0 +1,9 @@
+---
+spring:
+  application:
+    name: composer-service
+  cloud:
+    config:
+      uri: http://localhost:7001
+server:
+  port: 0
