@@ -3,18 +3,18 @@ spring:
   cloud:
     config:
       server:
-        encrypt:
-          enabled: true
+#        encrypt:
+#          enabled: true
         git:
-          uri: https://github.com/MichalAdorno/spring-cloud-learning
+          uri: ${CONFIG_REPO:https://github.com/MichalAdorno/spring-cloud-learning}
           searchPaths: configuration
         native:
           searchLocations: classpath:offline-config/
 server:
   port: 7001
-encrypt:
-  key-store:
-    location: classpath:/config-server.jks
-    password: my-store-pass
-    alias: config-server-key
-    secret: my-key-pass
+#encrypt:
+#  key-store:
+#    location: classpath:/config-server.jks
+#    password: my-store-pass
+#    alias: config-server-key
+#    secret: my-key-pass

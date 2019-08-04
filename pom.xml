@@ -14,7 +14,6 @@
         <module>config-server</module>
         <module>configuration</module>
         <module>composer-service</module>
-        <module>scripts</module>
     </modules>
 
 </project>
