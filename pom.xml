@@ -16,6 +16,7 @@
         <module>composer-service</module>
         <module>eureka-discovery</module>
         <module>eureka-client-service-1</module>
+        <module>eureka-client-service-2</module>
     </modules>
 
 </project>
