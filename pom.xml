@@ -14,6 +14,8 @@
         <module>config-server</module>
         <module>configuration</module>
         <module>composer-service</module>
+        <module>eureka-discovery</module>
+        <module>eureka-client-service-1</module>
     </modules>
 
 </project>
